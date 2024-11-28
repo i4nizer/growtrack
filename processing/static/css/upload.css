@@ -1,0 +1,46 @@
+body {
+    background-color: #F6F8ED;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #DFE8BF;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.upload-section {
+    background-color: #7A992E;
+    color: #F6F8ED;
+}
+
+.results-section {
+    background-color: #8EB533;
+    color: #394611;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#imagePreview img {
+    max-width: 100%;
+    border: 2px solid #394611;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #394611;
+    border-color: #394611;
+}
+
+.btn-primary:hover {
+    background-color: #7A992E;
+    border-color: #7A992E;
+}

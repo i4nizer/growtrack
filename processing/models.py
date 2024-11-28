@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class LettuceImage(models.Model):
+    image = models.ImageField(upload_to='lettuce_images/')
+    uploaded_at = models.DateTimeField(auto_now_add=True)
+
